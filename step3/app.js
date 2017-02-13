@@ -4,7 +4,7 @@ function getAndPrintHTML (options) {
 
   let buffer = '';
 
-  https.get(requestOptions, function (res) {
+  https.get(options, function (res) {
 
     res.setEncoding('utf8');
 
